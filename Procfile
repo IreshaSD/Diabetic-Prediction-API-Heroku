@@ -1,0 +1,1 @@
+web: uvicorn ML_API_on_Heroku:app --host 0.0.0.0 --port $PORT
