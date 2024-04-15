@@ -45,7 +45,7 @@ class model_input(BaseModel):
     
 
 # loading the saved model
-diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('Diabetes_Pipeline.sav','rb'))
 
 
 @app.post('/diabetes_prediction')
