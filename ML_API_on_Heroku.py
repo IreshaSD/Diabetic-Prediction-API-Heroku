@@ -5,12 +5,7 @@ Created on Mon Apr 15 05:22:06 2024
 @author:Iresha Sandamali
 """
 
-# The main idea of deploying machine learning model in the form of API is that it will be easier for us to connect our UI
-# The final result that we get from the API is URL
-# Public API in the sense , Anyone on the internet can access the our API through URL. And they can use it for their purpose
-# Once we deploy this model as this  public API so we get a URL. And anyone can post this input features to this API in order to find whether a person is diabetec or not   
-# ngrok module is used in order to create a proxy URL for us. 
-# For creating API we will be using fastapi library
+
 
 
 from fastapi import FastAPI
